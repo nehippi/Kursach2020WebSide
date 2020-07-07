@@ -1,0 +1,177 @@
+
+hr {
+    border: none; /* ÃÂ£ÃÂ±ÃÂ¸Ã‘â‚¬ÃÂ°ÃÂµÃÂ¼ ÃÂ³Ã‘â‚¬ÃÂ°ÃÂ½ÃÂ¸Ã‘â€ Ã‘Æ’ */
+    background-color: #ff4800; /* ÃÂ¦ÃÂ²ÃÂµÃ‘â€š ÃÂ»ÃÂ¸ÃÂ½ÃÂ¸ÃÂ¸ */
+    color: #ff4800; /* ÃÂ¦ÃÂ²ÃÂµÃ‘â€š ÃÂ»ÃÂ¸ÃÂ½ÃÂ¸ÃÂ¸ ÃÂ´ÃÂ»Ã‘Â IE6-7 */
+    height: 2px; /* ÃÂ¢ÃÂ¾ÃÂ»Ã‘â€°ÃÂ¸ÃÂ½ÃÂ° ÃÂ»ÃÂ¸ÃÂ½ÃÂ¸ÃÂ¸ */
+}
+spaceNote{
+    text-decoration: none;
+    height: 29.5px;
+    width: 50px;
+    outline: none;
+    display: inline-block;
+    padding: 0px 0px;
+    margin: 0px 2px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-size: 200% auto;
+    border-width: 2px;
+    background-image: linear-gradient(to right, #181212 0%, #181212 51%, #ff4800 100%);
+    border-style: solid;
+    border-color: #ff4800;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+}
+spaceNote:hover {background-position: right center;}
+noneNote{
+    text-decoration: none;
+    height: 29.5px;
+    width: 50px;
+    outline: none;
+    display: inline-block;
+    padding: 0px 0px;
+    margin: 0px 2px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-size: 200% auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #181212;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+}
+
+
+note {
+    text-decoration: none;
+    height: 33.5px;
+    width: 54px;
+    outline: none;
+    display: inline-block;
+    color: white;
+    padding: 0px 0px;
+    margin: 0px 2px;
+
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #ef8c3f 0%, #ff4800 51%, #ffd800 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+}
+note:hover {background-position: right center;}
+
+
+play {
+    text-decoration: none;
+    height: 40px;
+    width: 200px;
+    outline: none;
+    display: inline-block;
+    color: white;
+    padding: 0px 0px;
+    margin: 30px 2px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #ffd400 50%, #f37e24 50%, #ff4800 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    -moz-user-select: none;
+    transition: .5s;
+}
+play:hover {background-position: right center;}
+
+
+body {
+    font-family: Uroob;
+    -moz-user-select: none;
+    overflow-x: scroll;
+    background: #181212;
+    color: #ff4800
+}
+
+
+space{
+    width:150px;
+    border-color: rgb(167, 60, 18);
+    height: 34px;
+    border-width:2px;
+    border-style: solid;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #000000 inset, 0 0 0 0 #000000;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    transition: .15s ease-in-out;
+}
+
+
+
+white {
+    border-color: rgb(167, 60, 18);
+    border-width:3px ;
+    border-style: solid;
+    height: 76.2px;
+    width: 362px;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #fcf8f1 inset, 0 0 0 0 #fcf8f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: black;
+    transition: .15s ease-in-out;
+}
+white:hover {
+    box-shadow: 0 0 20px 0 #f37e24 inset, 0 0 10px 10px #ff4800;
+    background: #f37e24;
+    color: #ff4800;
+}
+
+black {
+    width:150px;
+    border-color: rgb(167, 60, 18);
+    height: 34px;
+    border-width:2px;
+    border-style: solid;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #000000 inset, 0 0 0 0 #000000;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    transition: .15s ease-in-out;
+}
+black:hover {
+    box-shadow: 0 0 10px 0 #f37e24 inset, 0 0 10px 4px #ff4800;
+    background: #f37e24;
+    color: #ff4800;
+}
+
+.div1 {
+    display: inline-block;
+}
+
+
+.div1 {
+    display: inline-block;
+}
+
+    
